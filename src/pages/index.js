@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile3.png"
+import profilePic from "../../public/images/profile3.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import HireMe from "@/components/HireMe";
@@ -16,15 +16,33 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
-
             <div className="w-1/2 flex flex-col items-center self-center">
-              <AnimatedText text={"Turning Vision Into Reality With Code And Design."} className={"!text-6xl !text-right"} />
-              <p className="my-4 text-base font-medium">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-                Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              <AnimatedText
+                text={"Turning Vision Into Reality With Code And Design."}
+                className={"!text-6xl !text-right"}
+              />
+              <p className="my-4 text-base font-medium">
+                As a skilled full-stack developer, I am dedicated to turning
+                ideas into innovative web applications. Explore my latest
+                projects and articles, showcasing my expertise in React.js and
+                web development.
               </p>
               <div className="flex items-center self-start mt-2">
-                <Link href={"./dummy.pdf"} target="_blank" download={true} className="bg-dark text-white px-4 py-2 flex rounded-md font-semibold text-lg hover:text-dark border-2 hover:bg-white hover:border-2 hover:border-black">Resume</Link>
-                <Link href={'mailto:ug.online.st@gmail.com'} className="ml-4 text-lg font-medium bg-gray-300 px-5 py-2 rounded-md text-dark" target="_blank">Email</Link>
+                <Link
+                  href={"./resume.pdf"}
+                  target="_blank"
+                  download={true}
+                  className="bg-dark text-white px-4 py-2 flex rounded-md font-semibold text-lg hover:text-dark border-2 hover:bg-white hover:border-2 hover:border-black"
+                >
+                  Resume
+                </Link>
+                <Link
+                  href={"mailto:ug.online.st@gmail.com"}
+                  className="ml-4 text-lg font-medium bg-gray-300 px-5 py-2 rounded-md text-dark"
+                  target="_blank"
+                >
+                  Email
+                </Link>
               </div>
             </div>
 
@@ -35,7 +53,10 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className="absolute right-8 bottom-8 inline-block w-24">
-          <Image src={profilePic} className="w-full h-auto border border-dark rounded-full" />
+          <Image
+            src={profilePic}
+            className="w-full h-auto border border-dark rounded-full"
+          />
         </div>
       </main>
     </>

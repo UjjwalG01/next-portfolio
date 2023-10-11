@@ -4,12 +4,15 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-full border-t-2 border-dark border-solid font-medium text-lg">
-      <Layout className="py-8 flex items-center justify-between">
+    <footer
+      className="w-full border-t-2 border-dark border-solid font-medium text-lg 
+          dark:text-light dark:border-light md:text-base"
+    >
+      <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
         <span>{new Date().getFullYear()} &copy; All Rights Reserverd</span>
-        <div className="flex items-center">
+        <div className="flex items-center lg:py-2">
           Build with
-          <span className="text-red-500 text-2xl items-center px-1">
+          <span className="text-purple-500 dark:text-purple-300 text-2xl items-center px-1">
             &#9825;
           </span>
           by&nbsp;

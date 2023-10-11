@@ -8,7 +8,7 @@ function LiIcon({ reference }) {
   });
 
   return (
-    <figure className="absolute left-0 stroke-dark">
+    <figure className="absolute left-0 stroke-dark dark:stroke-light">
       <svg
         className="-rotate-90"
         width={"75"}
@@ -26,7 +26,7 @@ function LiIcon({ reference }) {
           cy="50"
           r="20"
           style={{ pathLength: scrollYProgress }}
-          className="stroke-[3px] fill-light"
+          className="stroke-[3px] fill-light dark:fill-dark"
         />
         <circle
           cx="75"

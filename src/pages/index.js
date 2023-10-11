@@ -57,6 +57,7 @@ export default function Home() {
                 src={profilePic}
                 className="w-full h-auto lg:hidden md:w-full md:pt-16 md:inline-block md:mb-12"
                 priority
+                alt="This is my profile piture"
                 sizes="(max-width:768px) 80vw, (max-width:1200px) 50vw, 50vw"
               />
             </div>
@@ -66,6 +67,7 @@ export default function Home() {
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image
             src={profilePic}
+            alt="This is a side icon for my web app"
             className="w-full h-auto border border-dark rounded-full"
           />
         </div>

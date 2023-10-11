@@ -28,7 +28,7 @@ function about() {
           ref.current.textContent = latest.toFixed(0);
         }
       });
-    }, [isInView, value]);
+    }, [springValue, isInView, value]);
 
     return <span ref={ref}></span>;
   };
@@ -51,10 +51,10 @@ function about() {
                 About Me
               </h2>
               <p className="font-medium">
-                Hi, I'm Ujjwal Giri, a MERN Stack developer with a passion for
-                creating beautiful, functional, and modern implementations of
-                designs. With more than 1.5 years of experience in the field. I
-                am always looking for creative way and efficient way for
+                Hi, I&apos;m Ujjwal Giri, a MERN Stack developer with a passion
+                for creating beautiful, functional, and modern implementations
+                of designs. With more than 1.5 years of experience in the field.
+                I am always looking for creative way and efficient way for
                 developing web applications.
               </p>
 
@@ -65,11 +65,11 @@ function about() {
                 experiences for users.
               </p>
               <p className="font-medium">
-                I'm comfortable to implement the designs for either website,
-                mobile app, or other digital product, I bring my commitment to
-                design excellence and user-centered thinking to every project I
-                work on. I look forward to the opportunity to bring my skills
-                and passion to your next project.
+                I&apos;m comfortable to implement the designs for either
+                website, mobile app, or other digital product, I bring my
+                commitment to design excellence and user-centered thinking to
+                every project I work on. I look forward to the opportunity to
+                bring my skills and passion to your next project.
               </p>
             </div>
 

@@ -91,7 +91,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-center flex-wrap">
           {/* we use svgr playground to convert svg into react components */}
           <motion.a
-            href={"https://twitter.com/"}
+            href={"https://twitter.com/UjjwalG_01"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
@@ -100,7 +100,7 @@ const Navbar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href={"https://github.com/"}
+            href={"https://github.com/UjjwalG01"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
@@ -109,7 +109,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href={"https://linkedin.com/"}
+            href={"https://linkedin.com/in/its-ujjwal-giri"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 ml-3"

@@ -54,6 +54,28 @@ function Experience() {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
+            position={"Frontend Intern"}
+            time={"September 2022- March 2023"}
+            company={"Reflex IT Solutions"}
+            address={"Dillibazar, Kathmandu"}
+            companyLink={"reflexitsolution.com/"}
+            work={
+              "Worked on a Frontend Intern and implemented the basic designs using React and its libraries. Worked on MERN tech stacks in a team and help in delivering the projects."
+            }
+          />
+
+          <Details
+            position={"Computer Instructor"}
+            time={"May 2019-September 2022"}
+            company={"JEEVAN TARA ACADEMY"}
+            address={"Gokarneshwor Kathmandu"}
+            companyLink={"www.jta.com.np"}
+            work={
+              "Worked as an IT instructor for a school and taught the basics of programming. I have learned many aspects of working along with the teams, to achieve a desired goal."
+            }
+          />
+
+          {/* <Details
             position={"Software Engineer"}
             time={"2022-Present"}
             company={"Google"}
@@ -73,29 +95,7 @@ function Experience() {
             work={
               "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
             }
-          />
-
-          <Details
-            position={"Software Engineer"}
-            time={"2022-Present"}
-            company={"Google"}
-            address={"Mountain View, CA"}
-            companyLink={"www.google.com"}
-            work={
-              "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-            }
-          />
-
-          <Details
-            position={"Software Engineer"}
-            time={"2022-Present"}
-            company={"Google"}
-            address={"Mountain View, CA"}
-            companyLink={"www.google.com"}
-            work={
-              "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-            }
-          />
+          /> */}
         </ul>
       </div>
     </div>

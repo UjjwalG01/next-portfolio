@@ -117,9 +117,7 @@ const articles = () => {
           />
           <ul className="grid grid-cols-2 gap-16">
             <FeaturedArticles
-              title={
-                "Build A Custom Pagination Component In Reactjs From Scratch"
-              }
+              title={"This is my sample article title"}
               summary={
                 "Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
               }
@@ -128,11 +126,9 @@ const articles = () => {
               img={article1}
             />
             <FeaturedArticles
-              title={
-                "Build A Custom Pagination Component In Reactjs From Scratch"
-              }
+              title={"Build a full stack room booking web app using ReactJS"}
               summary={
-                "Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                "Build A Full Stack web application from scratch using React, Tailwind CSS, Node.js, ExpressJS, and MongoDB"
               }
               time={"9 min read"}
               link={"/"}
@@ -144,37 +140,37 @@ const articles = () => {
           </h2>
           <ul>
             <Article
-              title={"Build A Custom Pagination Component In Reactjs From Sc"}
+              title={"This is a sample article title! (ARTICLES COMING SOON)"}
               date={"July 13, 2023"}
               link={"/"}
               img={article3}
             />
             <Article
-              title={"Build A Custom Pagination Component In Reactjs From Sc"}
+              title={"This is a sample article title! (ARTICLES COMING SOON)"}
               date={"July 13, 2023"}
               link={"/"}
               img={article4}
             />
             <Article
-              title={"Build A Custom Pagination Component In Reactjs From Sc"}
+              title={"This is a sample article title! (ARTICLES COMING SOON)"}
               date={"July 13, 2023"}
               link={"/"}
               img={article5}
             />
             <Article
-              title={"Build A Custom Pagination Component In Reactjs From Sc"}
+              title={"This is a sample article title! (ARTICLES COMING SOON)"}
               date={"July 13, 2023"}
               link={"/"}
               img={article5}
             />
             <Article
-              title={"Build A Custom Pagination Component In Reactjs From Sc"}
+              title={"This is a sample article title! (ARTICLES COMING SOON)"}
               date={"July 13, 2023"}
               link={"/"}
               img={article5}
             />
             <Article
-              title={"Build A Custom Pagination Component In Reactjs From Sc"}
+              title={"This is a sample article title! (ARTICLES COMING SOON)"}
               date={"July 13, 2023"}
               link={"/"}
               img={article5}

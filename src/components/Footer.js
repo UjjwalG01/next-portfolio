@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "./Layout";
 import Link from "next/link";
+import InstaIcon from "./Icons";
 
 const Footer = () => {
   return (
@@ -11,19 +12,22 @@ const Footer = () => {
       <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
         <span>{new Date().getFullYear()} &copy; All Rights Reserverd</span>
         <div className="flex items-center lg:py-2">
-          Build with
-          <span className="text-purple-500 dark:text-purple-300 text-2xl items-center px-1">
-            &#9825;
-          </span>
-          by&nbsp;
+          Developed by &nbsp;
           <Link
-            className="underline underline-offset-2 font-semibold"
+            className="hover:underline underline-offset-2 font-semibold"
             href={"/"}
           >
             UjjwalG
           </Link>
         </div>
-        <Link href={"/"}>Say Hello</Link>
+        <Link
+          href={"https://www.instagram.com/__ujjwal_g/"}
+          className="w-6 mr-3 flex"
+          target="_blank"
+        >
+          <h2 className="font-mont font-semibold text-purple-600">Instagram</h2>
+          <InstaIcon className={"flex"} />
+        </Link>
       </Layout>
     </footer>
   );

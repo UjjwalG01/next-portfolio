@@ -51,24 +51,25 @@ function about() {
                 About Me
               </h2>
               <p className="font-medium">
-                Hi, I'm Ujjwal Giri, a Full Stack developer with a passion for
-                creating beautiful, functional, and user-centered digital
-                experiences. With 4 years of experience in the field. I am
-                always looking for new and innovative ways to bring my clients'
-                visions to life.
+                Hi, I'm Ujjwal Giri, a MERN Stack developer with a passion for
+                creating beautiful, functional, and modern implementations of
+                designs. With more than 1.5 years of experience in the field. I
+                am always looking for creative way and efficient way for
+                developing web applications.
               </p>
 
               <p className="font-medium">
-                I believe that design is about more than just making things look
-                pretty - it's about solving problems and creating intuitive,
-                enjoyable experiences for users.
+                Developing a user-centric web application has become the most
+                important thing for any of the organizations and the development
+                is all about solving problems and creating intuitive, enjoyable
+                experiences for users.
               </p>
               <p className="font-medium">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                I'm comfortable to implement the designs for either website,
+                mobile app, or other digital product, I bring my commitment to
+                design excellence and user-centered thinking to every project I
+                work on. I look forward to the opportunity to bring my skills
+                and passion to your next project.
               </p>
             </div>
 
@@ -89,7 +90,7 @@ function about() {
             <div className="col-span-2 flex flex-col xl:col-span-8 xl:flex-row xl:items-center items-end justify-between md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={50} />+
+                  <AnimatedNumbers value={5} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-white/75 md">
                   Satisfied Clients
@@ -98,7 +99,7 @@ function about() {
 
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={20} />+
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-white/75">
                   Projects Completed
@@ -107,7 +108,7 @@ function about() {
 
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={3} />+
+                  <AnimatedNumbers value={2} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-white/75">
                   Years of Experience

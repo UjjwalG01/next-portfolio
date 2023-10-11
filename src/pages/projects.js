@@ -5,8 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/ss1.jpg";
 import { motion } from "framer-motion";
+import project1 from "../../public/images/projects/ss1.jpg";
+import project2 from "../../public/images/projects/weather-app.jpg";
 
 const FramerImage = motion(Image);
 
@@ -53,7 +54,7 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
           <Link
             href={link}
             target="_blank"
-            className="bg-dark text-light rounded-lg px-3 py-2 text-lg font-semibold"
+            className="bg-dark text-light rounded-lg px-3 py-2 text-lg dark:bg-light dark:text-dark font-semibold"
           >
             Visit Project
           </Link>
@@ -126,7 +127,10 @@ const projects = () => {
 
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText text={"Imagination Trumps Knowledge!"} className={""} />
+          <AnimatedText
+            text={"Knowledge brings Power the to Thrive!"}
+            className={"leading"}
+          />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12">
@@ -135,7 +139,19 @@ const projects = () => {
                 summary={
                   "Node with Express as a backend and React as a frontend, this web app is full stack project where host can host their rooms mentioning all the services and details which are available to the guests, and they can book as per their requirements."
                 }
-                github={"#"}
+                github={"https://github.com/UjjwalG01/full-stack-web-mern.git"}
+                img={project1}
+                link={"#"}
+                type={"Featured Project"}
+              />
+            </div>
+            <div className="col-span-6">
+              <Project
+                title={"Full Stack Room Booking Application"}
+                summary={
+                  "Node with Express as a backend and React as a frontend, this web app is full stack project where host can host their rooms mentioning all the services and details which are available to the guests, and they can book as per their requirements."
+                }
+                github={"https://github.com/UjjwalG01/full-stack-web-mern.git"}
                 img={project1}
                 link={"/"}
                 type={"Featured Project"}
@@ -147,19 +163,7 @@ const projects = () => {
                 summary={
                   "Node with Express as a backend and React as a frontend, this web app is full stack project where host can host their rooms mentioning all the services and details which are available to the guests, and they can book as per their requirements."
                 }
-                github={"#"}
-                img={project1}
-                link={"/"}
-                type={"Featured Project"}
-              />
-            </div>
-            <div className="col-span-6">
-              <Project
-                title={"Full Stack Room Booking Application"}
-                summary={
-                  "Node with Express as a backend and React as a frontend, this web app is full stack project where host can host their rooms mentioning all the services and details which are available to the guests, and they can book as per their requirements."
-                }
-                github={"#"}
+                github={"https://github.com/UjjwalG01/full-stack-web-mern.git"}
                 img={project1}
                 link={"/"}
                 type={"Featured Project"}
@@ -167,36 +171,33 @@ const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProjects
-                title={"Full Stack Room Booking Web Application"}
+                title={"A weather application to show current weather status"}
                 summary={
-                  "Node with Express as a backend and React as a frontend, this web app is full stack project where host can host their rooms mentioning all the services and details which are available to the guests, and they can book as per their requirements."
+                  "With the API call to the backend using openweatherapi, the basic implementation of frontend has been done to schieve the goal of the project."
                 }
-                github={"#"}
-                img={project1}
+                github={"https://github.com/UjjwalG01?tab=repositories"}
+                img={project2}
+                link={"#"}
+                type={"Featured Project"}
+              />
+            </div>
+            <div className="col-span-6">
+              <Project
+                title={"A weather application to show current weather status"}
+                github={"https://github.com/UjjwalG01?tab=repositories"}
+                img={project2}
                 link={"/"}
                 type={"Featured Project"}
               />
             </div>
             <div className="col-span-6">
               <Project
-                title={"Full Stack Room Booking Application"}
+                title={"A weather application to show current weather status"}
                 summary={
                   "Node with Express as a backend and React as a frontend, this web app is full stack project where host can host their rooms mentioning all the services and details which are available to the guests, and they can book as per their requirements."
                 }
-                github={"#"}
-                img={project1}
-                link={"/"}
-                type={"Featured Project"}
-              />
-            </div>
-            <div className="col-span-6">
-              <Project
-                title={"Full Stack Room Booking Application"}
-                summary={
-                  "Node with Express as a backend and React as a frontend, this web app is full stack project where host can host their rooms mentioning all the services and details which are available to the guests, and they can book as per their requirements."
-                }
-                github={"#"}
-                img={project1}
+                github={"https://github.com/UjjwalG01?tab=repositories"}
+                img={project2}
                 link={"/"}
                 type={"Featured Project"}
               />

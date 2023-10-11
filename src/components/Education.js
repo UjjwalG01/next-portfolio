@@ -43,29 +43,29 @@ function Education() {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type={"Bachelor Of Science In Computer Science"}
-            time={"2016-2020"}
-            place={"Massachusetts Institute Of Technology (MIT)"}
+            type={"MERN Stack Development Training"}
+            time={"May 2023-August 2023"}
+            place={"Deerwalk Training Center"}
             info={
-              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+              "Relevant courses included React, Node, Express and MongoDB. I have also learnt the version control and teamwork skills."
             }
           />
 
           <Details
-            type={"Bachelor Of Science In Computer Science"}
-            time={"2016-2020"}
-            place={"Massachusetts Institute Of Technology (MIT)"}
+            type={"Bachelor of Computer Applications"}
+            time={"March 2019- 2024"}
+            place={"St. Lawrence College, Chabahil Kathmandu"}
             info={
-              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+              "The courses included all the fundamentals of computer like OS, Networking, DSA, System Design and the programming languages like JAVA, JavaScript, C, C#"
             }
           />
 
           <Details
-            type={"Bachelor Of Science In Computer Science"}
-            time={"2016-2020"}
-            place={"Massachusetts Institute Of Technology (MIT)"}
+            type={"+2 Science with Bio"}
+            time={"2017-2018"}
+            place={"NASA International College"}
             info={
-              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+              "The courses included Maths, Physics, Chemistry, Biology with the various practical works and lab works. Conducted few field works and research related to the subjects."
             }
           />
         </ul>
